@@ -2,7 +2,10 @@ function listener(details) {
     let mapping = {
         "xvideos.com": "xvideos2.com",
         "pornhub.com": "pornhub.net",
-        "xnxx.com": "xnxx.tv"
+        "xnxx.com": "xnxx.tv",
+        "youporn.com": "you-porn.com",
+        "redtube.com": "redtube.net",
+        "tube8.com": "tube8.es"
     };
     let url = new URL(details.url);
     redirectUrl = mapping[url.hostname];
@@ -27,7 +30,10 @@ let enabled_sites_filter = {
     "urls": [
         "*://*.xvideos.com/*",
         "*://*.pornhub.com/*",
-        "*://*.xnxx.com/*"
+        "*://*.xnxx.com/*",
+        "*://*.youporn.com/*",
+        "*://*.redtube.com/*",
+        "*://*.tube8.com/*"
     ]
 }
 

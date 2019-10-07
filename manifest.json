@@ -17,7 +17,8 @@
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "porn-unban@free.gen.in"
+            "id": "porn-unban@free.gen.in",
+            "update_url": "https://learnlearn.in/projects/updates.json"
         }
     }
 }

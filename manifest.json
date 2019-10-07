@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Porn Unban",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Banning porn solves no real world problems. But it creates real world problems when old links and embedded videos fail to play. This extension redirects URLs whenever mirror websites are available.\n\nRead description for a better method.",
     "icons": {
         "256": "icons/256.png"
